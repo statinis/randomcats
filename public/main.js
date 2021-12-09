@@ -25,5 +25,6 @@ function getCatGif() {
 }
 function loader() {
   var url1 = "loading.gif";
+  img.onload = "";
   img.setAttribute("src", url1);
 }
