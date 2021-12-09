@@ -27,3 +27,6 @@
     border: none;
     background-color: #eda85d;
 }
+.box {
+    box-sizing: border-box;
+}
