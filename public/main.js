@@ -6,6 +6,7 @@ getCatGif();
 
 //fetch catgif
 function getCatGif() {
+  title.innerText = "";
   fetch("https://meme-api.herokuapp.com/gimme/CatGifs")
     .then((res) => {
       console.log(res);
