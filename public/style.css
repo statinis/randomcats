@@ -17,7 +17,8 @@
     text-align: center;
     font-size: 1.7rem;
 }
-.h1{
+h1#heading-1 {
+    margin-top: 15px;
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
     color: #f2c38b;
