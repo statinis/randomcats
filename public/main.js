@@ -15,8 +15,10 @@ function getCatGif() {
       console.log(result.url);
       loader();
       setTimeout(() => {
+        img.onload = function() {
+          title.innerText = result.title;
+        };
         img.setAttribute("src", result.url);
-        title.innerText = result.title;
       }, 1000);
     });
 }
