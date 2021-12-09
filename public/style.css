@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e7dfdd;
+}
+.img{
+    width: 640px;
+    height: 480px;
+}
+.btn{
+    margin: 20px;
+    width: 260px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #eda85d;
+}
