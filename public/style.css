@@ -12,6 +12,10 @@
     background: #c4bdbd;
 }
 #title {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #eda85d;
+    text-align: center;
+    font-size: 3rem;
 }
 .img{
     width: 640px;
@@ -34,6 +38,8 @@
     text-align: center;
 }
 .box{
+    padding-top: 100px;
+    padding-bottom: 60px;
     margin-top: 60px;
     margin-bottom: 60px;
     background-color: #e7dfdd;
