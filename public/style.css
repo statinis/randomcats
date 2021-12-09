@@ -15,7 +15,13 @@
     font-family: "Lucida Console", "Courier New", monospace;
     color: #eda85d;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.7rem;
+}
+.h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: #f2c38b;
+    font-size: 1.2rem;
 }
 .img{
     width: 640px;
