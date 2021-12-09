@@ -14,6 +14,7 @@ function getCatGif() {
       loader();
       setTimeout(() => {
         img.setAttribute("src", result.url);
+        title.setAttribute("src", result.title);
       }, 1000);
     });
 }
