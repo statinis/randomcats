@@ -13,7 +13,7 @@ function getCatGif() {
     })
     .then((result) => {
       console.log(result.url);
-      title.innerText = "";
+      title.innerHTML = "&nbsp;";
       loader();
       setTimeout(() => {
         img.onload = function() {
