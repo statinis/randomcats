@@ -1,5 +1,7 @@
 const mainWin = document.querySelector(".main");
 const img = document.querySelector(".img");
+const title = document.querySelector("#title");
+
 getCatGif();
 
 //fetch catgif
@@ -14,6 +16,7 @@ function getCatGif() {
       loader();
       setTimeout(() => {
         img.setAttribute("src", result.url);
+        title.setInnerText(result.title);
       }, 1000);
     });
 }
