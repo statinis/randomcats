@@ -27,22 +27,3 @@
     border: none;
     background-color: #eda85d;
 }
-.box {
-    height:5px;
-    width:5px;
-    background-color:blue;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    color:blue;
-    border-width: 15px 15px 15px 15px;
-    border-color: blue;
-    border-style: solid;
-    border-radius: 70%
-    outline-color: blue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
