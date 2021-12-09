@@ -11,6 +11,8 @@
     flex-direction: column;
     background: #e7dfdd;
 }
+#title {
+}
 .img{
     width: 640px;
     height: 480px;
