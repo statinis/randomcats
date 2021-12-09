@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #e7dfdd;
+    background: #a4a1a3;
 }
 #title {
 }
@@ -29,3 +29,8 @@
     border: none;
     background-color: #eda85d;
 }
+.box{
+    background-color: #e7dfdd;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
